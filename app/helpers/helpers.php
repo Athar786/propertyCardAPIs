@@ -37,7 +37,7 @@ if (!function_exists('image')) {
     function image($image)
     {
         if($image) {
-            return url("uploads/" . $image);
+            return url("images/" . $image);
         } else {
             return asset('images/new/logo.png');
         }

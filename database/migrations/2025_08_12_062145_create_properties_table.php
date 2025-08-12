@@ -21,8 +21,8 @@ return new class extends Migration
             $table->integer('bathrooms');
             $table->integer('area');
             $table->longText('address');
-            $table->string('city');
-            $table->string('state');
+            $table->string('city')->nullable();
+            $table->string('state')->nullable();
             $table->char('pincode', 6);
             $table->string('image_url')->nullable();
             $table->string('property_type')->nullable();

@@ -20,4 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 Route::get('properties',[PropertyController::class, 'index']);
 Route::get('properties/{id}',[PropertyController::class, 'show']);
-Route::post('/properties', [PropertyController::class, 'store']);
+Route::post('propertiesadd', [PropertyController::class, 'store']);

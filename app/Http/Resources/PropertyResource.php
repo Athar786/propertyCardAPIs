@@ -27,7 +27,7 @@ class PropertyResource extends JsonResource
                 'address' => $this->address,
                 'pincode' => $this->pincode,
             ],
-            'image_url' => $this->image_url,
+            'image_url' => image($this->image_url),
             'available_from' => $this->formatted_available_from,
             'posted_on' => $this->posted_on,
         ];
