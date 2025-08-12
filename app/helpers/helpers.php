@@ -39,7 +39,7 @@ if (!function_exists('image')) {
         if($image) {
             return url("images/" . $image);
         } else {
-            return asset('images/new/logo.png');
+            return asset('images/new/tajmahel.jpeg');
         }
     }
 }
